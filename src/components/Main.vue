@@ -23,7 +23,7 @@ h3{
 }
 
 button{
-    background-color: #277429; /* Green */
+    background-color: #27742a86; /* Green */
     border: none;
     border-radius: 2em;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
@@ -34,5 +34,10 @@ button{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #27742a;
 }
 </style> 
