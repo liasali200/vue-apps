@@ -1,39 +1,29 @@
-# vue-project
+# Quote Generator (Vue)
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple quote generator built with Vue, featuring a basic layout (header, main, footer) and dynamic quote updates.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Features
 
-## Recommended Browser Setup
+- Displays a random quote
+- Button to generate a new quote
+- Structured layout (Header / Main / Footer)
+- Built using component-based architecture
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+---
 
-## Customize configuration
+## Tech Stack
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Vue 3
+- JavaScript (ES6)
+- HTML / CSS
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## Key Concepts Demonstrated
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-# vue-apps
+- Component structure (Header, Main, Footer)
+- State management using `ref`
+- Event handling for updating quotes
+- Basic reactivity in Vue
